@@ -31,10 +31,9 @@ fi
 
 pip install deepspeed
 pip install -U -I --no-deps xformers==0.0.25
-pip install -r ./install_script/require.txt
 if [ $? -ne 0 ]; then
     echo "Deps install failed / 依赖安装失败" > install_temp.txt
     exit 1
 fi
 
-echo "Install completed / 安装完毕" > install_temp.txt
+echo "Install completed" > install_temp.txt
