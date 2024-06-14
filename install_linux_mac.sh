@@ -36,7 +36,3 @@ pip install --upgrade pip
 
 # Install necessary Python libraries
 pip install -r ./install_script/requirements.txt
-
-echo ""
-echo "Install completed, please run Start to open the GUI"
-echo ""
